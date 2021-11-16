@@ -5,6 +5,7 @@ double y(double x)
 {
 	return tan(x);
 }
+//Function to change values into radian
 double rad(double d)
 {
 	return (d*22.0)/(180.0*7);
@@ -23,8 +24,6 @@ double trapz(int n)
 	}
 	return (rad(h)/2)*s;			
 }
-	
-
 int main()
 {
 	//double a = 0, b = 60;
