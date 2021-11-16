@@ -16,7 +16,7 @@ void solve(int n)
     while(n > 0)
     {
         n--;
-	      tranform(&f1, &f2);
+	tranform(&f1, &f2);
         printf("%d ", f2);
     }
 }
