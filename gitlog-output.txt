@@ -1,0 +1,59 @@
+commit cc8695c4e26ddb07affdc0cbed963101e9448fa2
+Author: RashmiPandit1 <rashmi.pandit@ucdconnect.ie>
+Date:   Thu Nov 11 16:20:18 2021 +0000
+
+    Uplaoding the Main, Header file and the makefile files that will compile the two files to generate the executable for the 6th Practical.
+
+commit 3160c38764e49b5ec3b427f92f3eaf667e31d25b
+Author: RashmiPandit1 <rashmi.pandit@ucdconnect.ie>
+Date:   Thu Nov 11 14:58:20 2021 +0000
+
+    Uplaoding the part 2 of the 5th Exercise - Hyperbolic Tangent Function
+
+commit 434026e627403eb749e4a8e243d3399f88be162b
+Author: RashmiPandit1 <rashmi.pandit@ucdconnect.ie>
+Date:   Thu Nov 11 14:51:35 2021 +0000
+
+    Uplaoding the part 1 of the 5th Exercise - Fibonacci series
+
+commit ee1342e54a6563b249ab25b678c3bf1b693a00f7
+Author: RashmiPandit1 <rashmi.pandit@ucdconnect.ie>
+Date:   Fri Oct 29 15:54:37 2021 +0100
+
+    Uplaoding the 4th Exercise - Radian rule
+
+commit c10f49feaabaa16c8ebe739fb3b51ca25ecbf04c
+Author: RashmiPandit1 <rashmi.pandit@ucdconnect.ie>
+Date:   Thu Oct 28 17:06:39 2021 +0100
+
+    Uplaoding the 3rd Exercise - Trapezoidal rule
+
+commit b0cdddd3d48b26505527edeaf0586b7069a3c485
+Author: RashmiPandit1 <rashmi.pandit@ucdconnect.ie>
+Date:   Thu Oct 28 14:39:09 2021 +0100
+
+    Added the Sum file for the Second Practical. I was having some problem with my branch. Hence, the delay in uploading the files.
+
+commit 5dced21ab16f63cee827b0a8c4d785c022d7f85a
+Author: RashmiPandit1 <rashmi.pandit@ucdconnect.ie>
+Date:   Thu Oct 28 14:27:20 2021 +0100
+
+    Added the Conversion file for the first commit
+
+commit bba58bbcf7731617d0b60fa57fc48a1c054e2f08
+Author: cilwerner <59959532+cilwerner@users.noreply.github.com>
+Date:   Tue Sep 28 08:58:29 2021 +0100
+
+    Updated formatting errors
+
+commit 4a18ed3e12f84ae309605d2f7862ec60750dedaa
+Author: cilwerner <59959532+cilwerner@users.noreply.github.com>
+Date:   Tue Sep 28 08:57:59 2021 +0100
+
+    Filled README.md with full instructions
+
+commit 312a9b3083fa3e5de0bb35276d886acf9d385dfb
+Author: cilwerner <59959532+cilwerner@users.noreply.github.com>
+Date:   Mon Sep 27 11:59:24 2021 +0100
+
+    Initial commit
