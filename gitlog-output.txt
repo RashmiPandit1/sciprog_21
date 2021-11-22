@@ -1,3 +1,155 @@
+commit 652936ac5aa7a307884bff0dd9c01c1f93fa8654
+Author: RashmiPandit1 <rashmi.pandit@ucdconnect.ie>
+Date:   Mon Nov 22 01:43:08 2021 +0000
+
+    Adding Practicals 7, 8 and 9
+
+commit da310550a75fd284848a8d660d6688532c97e1ce
+Author: RashmiPandit1 <rashmi.pandit@ucdconnect.ie>
+Date:   Sat Nov 20 15:24:15 2021 +0000
+
+    Removed unnecessary files
+
+commit 2c8ac4b25cb9be97f270ae49ea24fe92a63ebe9b
+Merge: c856e3d 59c01e9
+Author: RashmiPandit1 <rashmi.pandit@ucdconnect.ie>
+Date:   Sat Nov 20 15:19:59 2021 +0000
+
+    Merge branch 'Rashmi_Pandit_Brightspace' of https://github.com/RashmiPandit1/sciprog_21 into Rashmi_Pandit_Brightspace
+
+commit c856e3d325531caaf789ef67391b8dba141eab5c
+Author: RashmiPandit1 <rashmi.pandit@ucdconnect.ie>
+Date:   Thu Nov 18 20:56:33 2021 +0000
+
+    Uplaoding the Main file for the 10th Practical.
+
+commit 59c01e9af645ca7d61c3cb882bd3db62424f8860
+Author: RashmiPandit1 <92164111+RashmiPandit1@users.noreply.github.com>
+Date:   Tue Nov 16 14:04:41 2021 +0000
+
+    Create makefile
+    
+    Makefile that will compile the two files to generate the executable
+
+commit 9bddf1ec1e88316e3827ad1b12e1612296f2f16e
+Author: RashmiPandit1 <92164111+RashmiPandit1@users.noreply.github.com>
+Date:   Tue Nov 16 14:03:28 2021 +0000
+
+    Create Mult_fun.h
+    
+    The Mult_fun header file will return C to main.
+    It contains the matmult function.
+
+commit 3a3a4921bc77b5548ac584a285c1f75f57dbf7aa
+Author: RashmiPandit1 <92164111+RashmiPandit1@users.noreply.github.com>
+Date:   Tue Nov 16 13:50:31 2021 +0000
+
+    Create main_mult.c
+    
+    Uploading the Main file for the 6th Practical
+
+commit 4dfbfe898f71f03c3a24f8771a487c8e8c8e7234
+Author: RashmiPandit1 <92164111+RashmiPandit1@users.noreply.github.com>
+Date:   Tue Nov 16 13:37:36 2021 +0000
+
+    Update Hyperbolic.c
+
+commit 43cd2e2e1f8a46793721238263d7f1f26c70f1bd
+Author: RashmiPandit1 <92164111+RashmiPandit1@users.noreply.github.com>
+Date:   Tue Nov 16 13:28:46 2021 +0000
+
+    Update Fibonacci.c
+
+commit f7fc9e8ad1971d7684734ae207972cb5644d44d8
+Author: RashmiPandit1 <92164111+RashmiPandit1@users.noreply.github.com>
+Date:   Tue Nov 16 13:28:24 2021 +0000
+
+    Create Hyperbolic.c
+    
+    Uploading the part 2 of the 5th Exercise - Hyperbolic Tangent Function
+
+commit 38e3a38ad96249a76055b237b3917255e46dd627
+Author: RashmiPandit1 <92164111+RashmiPandit1@users.noreply.github.com>
+Date:   Tue Nov 16 13:27:08 2021 +0000
+
+    Create Fibonacci.c
+    
+    Uploading the part 1 of the 5th Exercise - Fibonacci series
+
+commit f5082f021ff30c0511edb222f1a1f23492097fbb
+Author: RashmiPandit1 <92164111+RashmiPandit1@users.noreply.github.com>
+Date:   Tue Nov 16 13:23:49 2021 +0000
+
+    Update Radian.c
+
+commit e95e962605fb23eef6bc7d7807885bc3fa42e1ee
+Author: RashmiPandit1 <92164111+RashmiPandit1@users.noreply.github.com>
+Date:   Tue Nov 16 11:00:44 2021 +0000
+
+    Update Trapezoidal.c
+
+commit 79dcd861445c94ccf7ad8cf5916c90f1cb46bdcc
+Author: RashmiPandit1 <92164111+RashmiPandit1@users.noreply.github.com>
+Date:   Mon Nov 15 18:12:40 2021 +0000
+
+    Create Readme.txt
+
+commit 74e4c007e06adc4130fcd681c1b07545840ddf10
+Author: RashmiPandit1 <92164111+RashmiPandit1@users.noreply.github.com>
+Date:   Mon Nov 15 18:10:20 2021 +0000
+
+    Uplaoding the 4th Exercise - Radian rule
+
+commit 203a2551a14cabe78c088e53ad285f6d8ae753fd
+Author: RashmiPandit1 <92164111+RashmiPandit1@users.noreply.github.com>
+Date:   Mon Nov 15 18:07:43 2021 +0000
+
+    Create Readme.txt
+
+commit 27ec4a9357a1545df560f0a8290625ad806447d5
+Author: RashmiPandit1 <92164111+RashmiPandit1@users.noreply.github.com>
+Date:   Mon Nov 15 17:36:45 2021 +0000
+
+    Delete Trapezoidal.c
+
+commit 86208c0e3b692dcb5796001dbd7bf35d196f4bde
+Author: RashmiPandit1 <92164111+RashmiPandit1@users.noreply.github.com>
+Date:   Mon Nov 15 17:36:08 2021 +0000
+
+    Create Trapezoidal.c
+    
+    Uplaoding the 3rd Exercise - Trapezoidal rule
+
+commit 1c489e3f3cac2ca95a6cfe3e8fec6ae66d111908
+Author: RashmiPandit1 <92164111+RashmiPandit1@users.noreply.github.com>
+Date:   Mon Nov 15 17:33:11 2021 +0000
+
+    Delete Practical 3 directory
+
+commit 53a799c3ade12c91513e53dbb0acff729004b284
+Author: RashmiPandit1 <92164111+RashmiPandit1@users.noreply.github.com>
+Date:   Mon Nov 15 17:30:22 2021 +0000
+
+    Update Readme.txt
+
+commit b0ce0ade203b4efe2930660294a4851cc302026a
+Author: RashmiPandit1 <92164111+RashmiPandit1@users.noreply.github.com>
+Date:   Mon Nov 15 17:22:46 2021 +0000
+
+    Create Readme.txt
+
+commit b44e3d6f1205af64ac1e5b5ca96ad90f07a0ae5e
+Author: RashmiPandit1 <92164111+RashmiPandit1@users.noreply.github.com>
+Date:   Mon Nov 15 17:09:02 2021 +0000
+
+    Delete Conversion.c
+
+commit 4aeb1173ff8d04393da47e0cfc0e9dfc21432617
+Author: RashmiPandit1 <92164111+RashmiPandit1@users.noreply.github.com>
+Date:   Mon Nov 15 17:08:31 2021 +0000
+
+    Delete Sum.c
+
 commit cc8695c4e26ddb07affdc0cbed963101e9448fa2
 Author: RashmiPandit1 <rashmi.pandit@ucdconnect.ie>
 Date:   Thu Nov 11 16:20:18 2021 +0000
