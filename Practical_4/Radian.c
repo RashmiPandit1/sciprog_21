@@ -1,34 +1,51 @@
-#include <stdio.h>
-#include <math.h>
-#define pi 22.0/7
-double y(double x)
+#include<stdio.h>
+#include<math.h>
+
+//Globally defining the array
+double tanx[20];
+//Function to compute the tan of x(0 to pi/3)
+double compute_tan(double x)
 {
-	return tan(x);
+    return tan(x);
 }
-//Function to change values into radian
-double rad(double d)
+//Function to convert degrees to radians
+double deg_to_rad(int n)
 {
-	return (d*22.0)/(180.0*7);
+    return ((double)n * 22.0)/(180.0 * 7.0);
 }
-double trapz(int n)
+//Function that calculates the area under the curve of tan(x) from 0 → 60 degrees using the Trapezoidal Rule.
+double area(int n)
 {
-	double a = 0, b = 60;
-	int i = 0;
-	double h = ((b-a)/n);
-	double s = y(rad(b));
-	for(i = 0; i < n; i++)
-	{	
-		double j = rad(a+i*h);
-		//printf("\n%lf", j);
-		s+= 2*y(j);
-	}
-	return (rad(h)/2)*s;			
+    int i = 0;
+    double s = 0;
+    double a = 0, b = M_PI/3;
+    for(i = 0; i <= n; i++)
+    {
+        if(i == 0 || i == n)
+            s += tanx[i];
+        else
+            s += 2 * tanx[i];
+    }
+    s = (s * (b - a))/(2.0 * n);
+    return s;
 }
+//Main Handler
 int main()
 {
-	//double a = 0, b = 60;
-	int n = 12;
-	double trap = trapz(n);
-	printf("\nArea under the curve : %lf\n" ,trap);
-	return 0;	
+    int n = 12, i = 0;
+    int j = 0;
+    double rad;
+    //Loop to generate the degree angles and the radian values
+    for(i = 0; i <= 60; i += 5)
+    {
+        rad = deg_to_rad(i);
+        tanx[j++] = compute_tan(rad);
+    }
+    //Loop to print the different values of tan(X) when the value of x is in degrees from 0 to 60 with 5 intervals.
+    for(i = 0; i <= 12; i++)
+        printf("tan(%d) = %lf\n", i*5, tanx[i]);
+    double ans = area(n);
+    printf("Area = %.10lf, Log(2) = %.10lf, Difference = %.10lf\n", ans, log(2), fabs(ans - log(2)));
+
+    return 0;
 }
