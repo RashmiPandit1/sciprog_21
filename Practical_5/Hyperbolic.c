@@ -1,49 +1,41 @@
 #include<stdio.h>
 #include<math.h>
-
-double eachelement(double x,int n)
+double artanh1(double x, double delta)
 {
-	double i = pow(x,2*n+1)/(2*n+1);		
-	return i;	
+    double sum = 0, el = 0;
+    double s = 0;
+    int i = 0, n = 0;
+    do
+    {
+        s = 2*n + 1;
+        el = (pow(x,s))/s;
+        sum += el;
+        n++;
+    }
+    while(fabs(el) >= delta);
+    return sum;
 }
-// Calculation of the hyperbolic tangent arc using the Maclaurin series
-double artanh1(double x,double delta)
-{
-	int n = 0;
-	double r,s = 0;
-	do
-	{
-		r = eachelement(x,n);
-		s+= r;
-		n++;		
-	}
-	while(fabs(r) >= delta);
-	return s;
-}
-//Calculation of the hyperbolic tangent arc using the natural logarithms
 double artanh2(double x)
 {
-	return 0.5*(log(1+x)-log(1-x));	
+    double sum2 = (log(1+x)-log(1-x))/2.0;
+    return sum2;
 }
-//Function to stop when the element in the series is smaller than a given precision, delta
-void solve(double delta)
-{
-	double i = 0.9;
-	for(i = -0.9;i <= 0.91; i+=0.01)
-	{
-		double x = artanh1(i,delta);
-		double y = artanh2(i);
-		printf("The difference between tan1h(%lf) and tan2h(%lf) =  %.10lf\n",i,i,fabs(x-y));
-	}		
-}
-//Main function that will calculate arctanh(x) where x ∈ [−0.9,0.9] and sampled every 0.01, using both methods
 int main()
 {
-	double delta;
-	printf("Enter the value of Delta : ");
-	scanf("%lf",&delta);
-	solve(delta);
-	//double ans = artanh1(delta);
-	//printf("/n%lf", ans);
-	return 0;
+    double i;
+    double n = 0;
+    printf("Enter the value of delta : ");
+    scanf("%lf", &n);
+    double arr1[181], arr2[181];
+    int c = 0;
+    for(i = -0.9; i <= 0.9; i += 0.01)
+    {
+        arr1[c] = artanh1(i,n);
+        arr2[c] = artanh2(i);
+        c++;
+    }
+    int j = 0;
+    for(j = 0; j < 180; j++)
+        printf("The Difference between arctan1 and arctan2 = %.10lf \n", fabs(arr1[j] - arr2[j]));
+    return 0;
 }
