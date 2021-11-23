@@ -1,3 +1,45 @@
+commit c42ec595d1323f6b4a2e5658aab5fdb70c0ddbe0
+Author: RashmiPandit1 <92164111+RashmiPandit1@users.noreply.github.com>
+Date:   Mon Nov 22 22:50:42 2021 +0000
+
+    Added some comments to the code
+
+commit 492994b8ec2bbff635c1383c7c0d87dd408d1c95
+Author: RashmiPandit1 <92164111+RashmiPandit1@users.noreply.github.com>
+Date:   Mon Nov 22 22:36:17 2021 +0000
+
+    Updated the code as the array was not defined globally before
+
+commit d1aaa0286b1c49fe0dcb185f28a13770e30847e7
+Author: RashmiPandit1 <92164111+RashmiPandit1@users.noreply.github.com>
+Date:   Mon Nov 22 22:32:35 2021 +0000
+
+    Made some changes to the code and added more comments
+
+commit 3521d5b9344c180ef7d3b80dcfd40c708903952d
+Author: RashmiPandit1 <92164111+RashmiPandit1@users.noreply.github.com>
+Date:   Mon Nov 22 21:17:54 2021 +0000
+
+    Update Radian.c
+
+commit be5c365777edcb373dcccb226c21dbec4b3d2051
+Author: RashmiPandit1 <92164111+RashmiPandit1@users.noreply.github.com>
+Date:   Mon Nov 22 20:16:37 2021 +0000
+
+    Update Hyperbolic.c
+
+commit f0c799f8493114cc1342e7d85745592340e333bc
+Author: RashmiPandit1 <92164111+RashmiPandit1@users.noreply.github.com>
+Date:   Mon Nov 22 19:59:53 2021 +0000
+
+    Update Trapezoidal.c
+
+commit 68ddd95c550577a51b5d0606f1d570694d5d69fd
+Author: RashmiPandit1 <rashmi.pandit@ucdconnect.ie>
+Date:   Mon Nov 22 01:48:45 2021 +0000
+
+    Adding the git log file
+
 commit 652936ac5aa7a307884bff0dd9c01c1f93fa8654
 Author: RashmiPandit1 <rashmi.pandit@ucdconnect.ie>
 Date:   Mon Nov 22 01:43:08 2021 +0000
